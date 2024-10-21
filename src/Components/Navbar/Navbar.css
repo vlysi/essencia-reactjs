@@ -36,12 +36,22 @@
   cursor: pointer;
 }
 
+.nav-menu li a {
+  color: inherit; /* Para heredar el color del li */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.nav-menu li.active a {
+  color: #141717; /* Color del enlace activo */
+  font-weight: 600; /* Aumentar el peso del texto en el enlace activo */
+}
+
 .nav-menu hr {
   border: none;
   width: 80%;
-  height: 3px;
+  height: 2px;
   border-radius: 10px;
-  background: #FF4141;
+  background: #252525;
 }
 
 .nav-menu li.active hr {
