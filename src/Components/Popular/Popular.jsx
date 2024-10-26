@@ -6,7 +6,7 @@ import Item from '../Item/Item';
 const Popular = () => {
   return (
     <div className='popular'>
-      <h1>ON EVERYONE’S WISHLIST</h1>
+      <h2>ON EVERYONE’S WISHLIST</h2>
       <hr />
       <div className="popular-item">
         {data_product.map((item, i)=>{
